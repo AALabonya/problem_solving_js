@@ -1,9 +1,10 @@
 // 2. Task: Object Manipulation
 
 const allBooks = [
-  { title: "Book One", author: "Author A", year: 2001 },
-  { title: "Book Two", author: "Author B", year: 2005 },
-  { title: "Book Three", author: "Author C", year: 2010 },
+    { title: "Pather Panchali", author: "Bibhutibhushan Bandyopadhyay", year: 1929 },
+    { title: "Ekattorer Dinguli", author: "Jahanara Imam", year: 1986 },
+    { title: "Shesher Kobita", author: "Rabindranath Tagore", year: 1929 },
+    { title: "Aguner Parashmoni", author: "Humayun Ahmed", year: 1994 }
 ];
 
 const bookTitles = allBooks.map(book => book.title);
